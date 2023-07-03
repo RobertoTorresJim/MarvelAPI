@@ -18,3 +18,4 @@ $ java -jar marvel-api-0.0.1-SNAPSHOT.jar
 ```
 Recursos http://localhost:8080/v1/characters/ 
 
+### Por corregir, 

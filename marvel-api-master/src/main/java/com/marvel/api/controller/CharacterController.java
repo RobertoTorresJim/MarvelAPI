@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,6 +21,7 @@ import com.marvel.api.model.Character;
 import com.marvel.api.responses.Response;
 import com.marvel.api.services.CharacterService;
 
+@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/v1/public/characters")
 public class CharacterController {
