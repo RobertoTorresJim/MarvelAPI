@@ -1,0 +1,13 @@
+<h1>Characters</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let character of characters  ">
+      <td><button class = 'btn btn-primary' type="button" name="button">{{character.name}}</button></td>
+    </tr>
+  </tbody>
+</table>
